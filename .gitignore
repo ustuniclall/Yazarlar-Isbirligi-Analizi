@@ -1,0 +1,35 @@
+# --- Python Derleme ve Önbellek Kalıntıları ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+
+# --- Sanal Ortam (Virtual Environment) Dosyaları ---
+.venv/
+venv/
+ENV/
+env/
+bin/
+include/
+lib/
+share/
+pyvenv.cfg
+
+# --- IDE ve Proje Yönetim Araçları (VS Code / PyCharm / IntelliJ) ---
+.idea/
+.vscode/
+.project
+.classpath
+
+# --- Veri Setleri ve Uygulama Çıktıları (Yerel Test Kalıntıları) ---
+*.xlsx
+*.xls
+*.csv
+*.json
+
+# --- Log Dosyaları ve Sistem Kalıntıları ---
+*.log
+.DS_Store
+Thumbs.db
+*.pdf
+*.docx
